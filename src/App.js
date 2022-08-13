@@ -7,16 +7,16 @@ import { Profile } from './Profile';
 function App() {
   return (
     <div className="App">
-      react js tutorial
+      {/* react js tutorial
       <Home/>
-      <Profile/>
-      {/* {
+      <Profile/> */}
+      {
         React.createElement(
           'h1',
           null,
           'hello jsx'
         )
-      } */}
+      }
     </div>
   );
 }
