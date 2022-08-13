@@ -1,9 +1,10 @@
 import React from "react";
-export const Profile= () => {
-    return(
-        // <div>This is a functional componets</div>
-        {
-            
-        }
-    )
-} 
+
+const Profile = (props) => {
+  return (
+
+            <div>Hello {props.text.name} you lived in {props.text.add}</div>
+         )
+};
+
+export default Profile;
