@@ -1,10 +1,14 @@
 import React from "react";
 
-const Profile = (props) => {
-  return (
+export default class Profile extends React.Component{
 
-            <div>Hello {props.text.name} you lived in {props.text.add}</div>
-         )
+render(){
+
+    return (
+  
+              <div>Hello {this.props.text.name} you lived in {this.props.text.add}</div>
+           )
+}
 };
 
-export default Profile;
+
