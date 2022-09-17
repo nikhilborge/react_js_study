@@ -2,6 +2,7 @@ import React from "react";
 
 export default class Profile extends React.Component {
   constructor() {
+    console.log("construtor");
     super();
     this.state = {
       name: "nikhil",
@@ -16,9 +17,13 @@ export default class Profile extends React.Component {
       count: this.state.count + 1,
     });
   }
+
+  componentDidMount(){
+    console.log("component did mount");
+  }
  
   render() {
-   
+    console.log("render");
 
     return (
       <div>
